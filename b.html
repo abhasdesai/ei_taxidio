@@ -1,0 +1,432 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Taxidio</title>
+<link rel="stylesheet" href="http://beta.taxidio.com/assets/css/bootstrap.css" type="text/css" />
+<link rel="stylesheet" href="http://beta.taxidio.com/assets/css/bootstrap-theme.css" type="text/css" />
+<link rel="stylesheet" href="http://beta.taxidio.com/assets/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="http://beta.taxidio.com/assets/css/star-rating.css" type="text/css" />
+<link rel="shortcut icon" href="http://beta.taxidio.com/assets/images/favicon.png" /><link rel="alternate" />
+<link rel="stylesheet" href="http://beta.taxidio.com/assets/css/style.css" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://beta.taxidio.com/assets/js/jquery-1.11.1.min.js"></script> 
+</head>
+
+<body>
+
+<!------Top Header Starts ------->
+
+<div class="container-fluid topwrapper">
+  <div class="container">
+    <div class="col-md-6 text-left no-padding">
+      <ul class="loginwrapper">
+        <li><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
+        <li><a href="#signup" data-toggle="modal" data-target=".bs-modal-sm"><i class="fa fa-file-text" aria-hidden="true"></i> Register</a></li>
+      </ul>
+    </div>
+    <div class="col-md-6 text-right no-padding">
+      <ul class="socialwrapper">
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content"> <br>
+      <div class="bs-example bs-example-tabs">
+        <ul id="myTab" class="nav nav-tabs">
+          <li class="active"><a href="#signin" data-toggle="tab">Login</a></li>
+          <li class=""><a href="#signup" data-toggle="tab">Register</a></li>
+          <li class=""><a href="#why" data-toggle="tab">Why?</a></li>
+        </ul>
+      </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+          <div class="tab-pane fade in" id="why">
+            <p>We need this information so that you can receive access to the site and its content. Rest assured your information will not be sold, traded, or given to anyone.</p>
+            
+          </div>
+          <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal">
+              <fieldset>
+                <!-- Sign In Form --> 
+                <!-- Text input-->
+                <div class="control-group">
+                  <label class="control-label" for="userid">User Name:</label>
+                  <div class="controls">
+                    <input required id="userid" name="userid" type="text" class="form-control" placeholder="User Name" class="input-medium" required="">
+                  </div>
+                </div>
+                
+                <!-- Password input-->
+                <div class="control-group">
+                  <label class="control-label" for="passwordinput">Password:</label>
+                  <div class="controls">
+                    <input required id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+                  </div>
+                </div>
+                
+                <!-- Multiple Checkboxes (inline) -->
+                <div class="control-group padding-left-20">
+                  <label class="control-label" for="rememberme"></label>
+                  <div class="controls">
+                    <label class="checkbox inline" for="rememberme-0">
+                      <input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
+                      Remember me </label>
+                  </div>
+                </div>
+                
+                <!-- Button -->
+                <div class="control-group">
+                  <label class="control-label" for="signin"></label>
+                  <div class="controls">
+                    <button id="signin" name="signin" class="action-button shadow animate blue">Sign In</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="signup">
+            <form class="form-horizontal">
+              <fieldset>
+                <!-- Sign Up Form --> 
+                <!-- Text input-->
+                <div class="control-group">
+                  <label class="control-label" for="Email">Email:</label>
+                  <div class="controls">
+                    <input id="Email" name="Email" class="form-control" type="text" placeholder="JoeSixpack@sixpacksrus.com" class="input-large" required="">
+                  </div>
+                </div>
+                
+                <!-- Password input-->
+                <div class="control-group">
+                  <label class="control-label" for="password">Password:</label>
+                  <div class="controls">
+                    <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+                    <em>1-8 Characters</em> </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="control-group">
+                  <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+                  <div class="controls">
+                    <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+                  </div>
+                </div>
+                
+                <!-- Button -->
+                <div class="control-group">
+                  <label class="control-label" for="confirmsignup"></label>
+                  <div class="controls">
+                    <button id="confirmsignup" name="confirmsignup" class="action-button shadow animate blue">Sign Up</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <center>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""/></a> </div>
+      
+      <div class="tagline">
+      	<h1>The Where, Why and How Traveler</h1>
+      </div>
+    <div id="navbar" class="navbar-collapse collapse"> 
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown active toggle-display"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="sr-only">(current)</span></a></li>
+        <li class="t toggle-display"><a href="#" class="hvr-shutter-in-horizontal">Our Offerings</a></li>
+        <li class="t toggle-display"><a href="#" class="hvr-shutter-in-horizontal">Destinations Covered</a></li>
+        <li class="t toggle-display"><a href="#" class="hvr-shutter-in-horizontal">Hotels</a></li>
+        <li class="t toggle-display"><a href="#" class="hvr-shutter-in-horizontal">Homestays</a></li>
+        <li class="t toggle-display"><a href="#" class="hvr-shutter-in-horizontal">Attractions</a></li>
+        <li class="t toggle-display"><a href="#" class="hvr-shutter-in-horizontal">Itinerary Created</a></li>
+        <li><button class="c-hamburger c-hamburger--htx">
+                      <span>toggle menu</span>
+                    </button></li>
+      </ul>
+    </div>
+    
+  </div>
+  
+ 
+  
+</nav>
+
+
+<div class="container-fluid single-country-recommendation">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12 text-center">
+            	<h2>Discover</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="container taxidio-vision">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<h2>Taxidio’s Vision</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid light-bg">
+    	<div class="container three-highlights">
+        	<div class="row">
+            	<div class="col-md-4">
+               		<img src="http://beta.taxidio.com/userfiles/chkfiles/discover1.jpg" width="100%" alt="" />
+               		<h3>Discover Destinations</h3>
+                </div>
+                <div class="col-md-4">
+                	<img src="http://beta.taxidio.com/userfiles/chkfiles/discover2.jpg" width="100%" alt="" />
+                	<h3>Destination Recommendation</h3>
+                </div>
+                <div class="col-md-4">
+                	<img src="http://beta.taxidio.com/userfiles/chkfiles/discover3.jpg" width="100%" alt="" />
+                	<h3>Designing Itineraries</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mission-para">
+        	<div class="row">
+            	<div class="col-md-6 no-padding mission">
+                	<h4 class="mission-heading">Taxidio’s Mission</h4>
+                    <p class="mission-content">We aim to strike a balance between the plethora of information available, by retaining what is essential. We believe in simplifying travel experiences in a timely and cost-effective manner, thereby making it a remarkable journey.</p>
+                </div>
+                <div class="col-md-6 no-padding">
+                	<img src="http://beta.taxidio.com/userfiles/chkfiles/about-mission.jpg" width="100%" alt="" />
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container discover-para">
+        	<div class="row">
+            	<div class="col-md-12 no-padding discover">
+                	<h4 class="discover-heading">Discover</h4>
+                    <p class="discover-content">Taxidio is the first global automated trip planner, which seamlessly brings a logical connect to the process of destination selection, itinerary creation, travel guides, booking and sharing. We cater to the entire value chain of a traveler’s requirement, by bridging the gap between travel planning and execution.</p>
+                </div>
+               
+            </div>
+        </div>
+        
+        <div class="container destination-para">
+        	<div class="row">
+            	<div class="col-md-5 no-padding">
+                	<img src="http://beta.taxidio.com/userfiles/chkfiles/destination-recm.jpg" width="100%" alt="" />
+                </div>
+            	<div class="col-md-7 no-padding destination">
+                	<h4 class="destination-heading">Destination Recommendation</h4>
+                    <p class="destination-content">In a world of over 190 spectacular countries, why limit yourself to only a selected few?<br/>Most often than not, travelers are unaware of many countries/cities that fall into their genre of travel, which they could catch a glimpse of. Here’s where we come to their rescue! <br/>
+We enable you to select your travel parameters, on the basis of which we run a search query and enlist all the destination recommendations generated by our mammoth database.<br/>
+But if you’re among those who already know where they want to go, all you have to do is feed in your destination, fine-tune your travel requirements with a quick selection of parameters and let us take care of the rest.<br/>
+Once you define the parameters of your trip, we step into your shoes and accumulate the best results based on your travel preferences. 
+</p>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="container Designing-para">
+        	<div class="row">
+            	
+            	<div class="col-md-7 no-padding Designing">
+                	<h4 class="Designing-heading">Designing Itineraries</h4>
+                    <p class="Designing-content">Travel planning can be a very daunting task. We add method to the madness by automating the process to create travel guides that are tailored to your needs. As you align your travel parameters, in a matter of a few clicks, we craft out the ideal itinerary for you. <br/>
+Through our technological prowess, we minimize your hassle of browsing through countless websites.
+
+</p>
+                </div>
+                
+                <div class="col-md-5 no-padding">
+                	<img src="http://beta.taxidio.com/userfiles/chkfiles/destination-recm.jpg" width="100%" alt="" />
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="container destination-para">
+        	<div class="row">
+            	<div class="col-md-5 no-padding">
+                	<img src="http://beta.taxidio.com/userfiles/chkfiles/destination-recm.jpg" width="100%" alt="" />
+                </div>
+            	<div class="col-md-7 no-padding destination">
+                	<h4 class="destination-heading">Best Bookings</h4>
+                    <p class="destination-content">We don’t just stop at being an itinerary planner. We push the boundaries and provide you with the option of instantly booking an accommodation that suits your points of interest. Be it hotels or homestays, we’ve got you covered. Plunging even further, we offer you a one-stop-shop for booking attraction tickets in advance, at the best rates to save you time and money.
+</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+
+
+    
+    
+    
+    <div class="container-fluid footerwrapper">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-4">
+            	<p>Copyright©All Rights Reserved 2016 Taxidio</p>
+            </div>
+            <div class="col-md-8 text-right">
+            	<ul class="footer-menu"><span class="powered">Powered By:</span> 
+                	<li><a href="#"><img src="images/rome-2-rio-small.png" /></a></li>
+                    <li><a href="#"><img src="images/booking-dot-com-small.png" /></a></li>
+                    <li><a href="#"><img src="images/get-your-guide-small.png" /></a></li>
+                    <li><a href="#"><img src="images/homestay-small.png" /></a></li>
+                </ul>
+            	<ul class="footer-menu">
+                	<li><a href="#">About Taxidio</a></li>
+                    <li><a href="#">Press/Media</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://beta.taxidio.com/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://beta.taxidio.com/assets/js/scripts.js"></script>
+
+<script type="text/javascript">
+	$(function() {
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+	});
+});
+</script>
+<script type="text/javascript">
+
+    if ($('#back-to-top').length) {
+        var scrollTrigger = 100, // px
+                backToTop = function () {
+                    var scrollTop = $(window).scrollTop();
+                    if (scrollTop > scrollTrigger) {
+                        $('#back-to-top').addClass('show');
+                    } else {
+                        $('#back-to-top').removeClass('show');
+                    }
+                };
+        backToTop();
+        $(window).on('scroll', function () {
+            backToTop();
+        });
+        $('#back-to-top').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+        scrollTop: $("#multi-countries").offset().top
+    }, 800);
+        });
+    }
+
+</script>
+
+
+<script>
+  (function() {
+
+    "use strict";
+
+    var toggles = document.querySelectorAll(".c-hamburger");
+
+    for (var i = toggles.length - 1; i >= 0; i--) {
+      var toggle = toggles[i];
+      toggleHandler(toggle);
+    };
+
+    function toggleHandler(toggle) {
+      toggle.addEventListener( "click", function(e) {
+        e.preventDefault();
+        (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+      });
+    }
+
+  })();
+</script>
+
+ <script>
+  
+  $(".c-hamburger").click(function(){
+	  //alert($(".t").has('toggle-display'));
+	  if($(".t").hasClass('toggle-display'))
+	  {
+		  $(".tagline").hide();
+		  $(".t").removeClass("toggle-display");
+		  $(".t").addClass("toggle-display-block");
+	  }
+	  else
+	  {
+		  $(".tagline").show();
+		   $(".t").removeClass("toggle-display-block");
+	      $(".t").addClass("toggle-display");
+	 }
+	  });
+  
+  </script>
+<script type="text/javascript">
+var affixElement = '.navbar';
+
+$(affixElement).affix({
+  offset: {
+    // Distance of between element and top page
+    top: function () {
+      return (this.top = $(affixElement).offset().top)
+    },
+    // when start #footer 
+    
+  }
+});
+</script>
+
+
+</body>
+</html>
+
