@@ -1,0 +1,513 @@
+{
+	"mapwidth":"1200",
+	"mapheight":"760",
+	"categories":[
+
+	],
+	"levels":[
+		{
+			"id":"world",
+			"title":"World",
+			"map":"/assets/maps/world.svg",
+			"locations":[
+				{
+					"id": "rn",
+					"title": "Romania",
+					"description": "Romainia",
+					"pin": "hidden",
+					"fill": "#99D3BE",
+					"x": "0.5644",
+					"y": "0.4822"
+					
+				},
+				{
+					"id": "ca",
+					"title": "Canada",
+					"description": "Canada.",
+					"pin": "hidden",
+					"fill": "#82c03e",
+					"link": "canada.html",
+					"x": "0.2271",
+					"y": "0.4290"
+				},
+				{
+					"id": "us",
+					"title": "USA",
+					"description": "United States of America.",
+					"pin": "hidden",
+					"fill": "#82c03e",
+					"link": "usa.html",
+					"x": "0.2338",
+					"y": "0.5232"
+				},
+				{
+					"id": "fr",
+					"title": "France",
+					"description": "France departments.",
+					"link": "france.html",
+					"fill": "#BAB658",
+					"pin": "hidden",
+					"x": "0.5079",
+					"y": "0.4758"
+				},
+				{
+					"id": "de",
+					"title": "Germany",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p><p>Nullam ut lectus massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc lobortis pretium velit eu maximus. Integer a faucibus libero.</p><p>Ut id eleifend sem, faucibus consectetur ligula. Proin vel vestibulum dui. Sed rhoncus eleifend velit, a sodales eros auctor ut.</p>",
+					"pin": "hidden",
+					"fill": "#D4DF5B",
+					"link": "germany.html",
+					"x": "0.5645",
+					"y": "0.4790"
+				},
+				{
+					"id": "hu",
+					"title": "Hungary",
+					"description": "Hungary",
+					"pin": "hidden",
+					"fill": "#795ecd",
+					"x": "0.5515",
+					"y": "0.4731"
+				},
+				{
+					"id": "gr",
+					"title": "Greece",
+					"description": "Greece",
+					"pin": "hidden",
+					"fill": "#B89781",
+					"x": "0.5581",
+					"y": "0.5171"
+				},
+				{
+					"id": "gb",
+					"title": "United Kingdom",
+					"description": "England.",
+					"pin": "hidden",
+					"fill": "#FFCC4E",
+					"link": "uk.html",
+					"x": "0.4941",
+					"y": "0.4285"
+				},
+				{
+					"id": "za",
+					"title": "South Africa",
+					"description": "South Africa",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.5654",
+					"y": "0.8221"
+				},
+				{
+					"id": "mg",
+					"title": "Madagascar",
+					"description": "Madagascar",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.6238",
+					"y": "0.7749"
+				},
+				{
+					"id": "ma",
+					"title": "Morocco",
+					"description": "Morocco",
+					"pin": "hidden",
+					"fill": "#B89781",
+					"x": "0.4834",
+					"y": "0.5547"
+				},
+				{
+					"id": "eg",
+					"title": "Egypt",
+					"description": "Egypt",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.5779",
+					"y": "0.5759"
+				},
+				{
+					"id": "ly",
+					"title": "Libya",
+					"description": "Libya",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.5474",
+					"y": "0.5786"
+				},
+				{
+					"id": "na",
+					"title": "Namibia",
+					"description": "Namibia",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.5455",
+					"y": "0.7970"
+				},
+				{
+					"id": "cn",
+					"title": "China",
+					"description": "China",
+					"link": "china.html",
+					"pin": "hidden",
+					"fill": "#FBC834",
+					"x": "0.7782",
+					"y": "0.5319"
+				},
+				{
+					"id": "ru",
+					"title": "Russia",
+					"description": "Russia",
+					"link": "russia.html",
+					"pin": "hidden",
+					"fill": "#f23543",
+					"x": "0.7681",
+					"y": "0.3352"
+				},
+				{
+					"id": "au",
+					"title": "Australia",
+					"description": "Australia",
+					"link": "australia.html",
+					"pin": "hidden",
+					"fill": "#FFF39D",
+					"x": "0.8563",
+					"y": "0.7957"
+				},
+				{
+					"id": "nz",
+					"title": "New Zealand",
+					"description": "New Zealand",
+					"pin": "hidden",
+					"fill": "#fdca2a",
+					"x": "0.9506",
+					"y": "0.8822"
+				},
+				{
+					"id": "br",
+					"title": "Brazil",
+					"description": "Brazil",
+					"link": "brazil.html",
+					"pin": "hidden",
+					"fill": "#29afa1",
+					"x": "0.3632",
+					"y": "0.7413"
+				},
+				{
+					"id": "ar",
+					"title": "Argentina",
+					"description": "Argentina",
+					"pin": "hidden",
+					"fill": "#29afa1",
+					"x": "0.3221",
+					"y": "0.8591"
+				},
+				{
+					"id": "in",
+					"title": "India",
+					"description": "India",
+					"pin": "hidden",
+					"fill": "#7FCD51",
+					"x": "0.7055",
+					"y": "0.6031"
+				},
+				{
+					"id": "jp",
+					"title": "Japan",
+					"description": "Japan",
+					"pin": "hidden",
+					"fill": "#F8A685",
+					"x": "0.8636",
+					"y": "0.5323"
+				},
+				{
+					"id": "lk",
+					"title": "Srilanka",
+					"description": "Srilanka",
+					"pin": "hidden",
+					"fill": "#B29076",
+					"x": "0.7136",
+					"y": "0.6654"
+				},
+				{
+					"id": "np",
+					"title": "Nepal",
+					"description": "Nepal",
+					"pin": "hidden",
+					"fill": "#8EC3D5",
+					"x": "0.7192",
+					"y": "0.5712"
+				},
+				{
+					"id": "bd",
+					"title": "Bangladesh",
+					"description": "Bangladesh",
+					"pin": "hidden",
+					"fill": "#FFF39D",
+					"x": "0.7367",
+					"y": "0.5936"
+				},
+				{
+					"id": "bt",
+					"title": "Bhutan",
+					"description": "Bhutan",
+					"pin": "hidden",
+					"fill": "#EB6E5E",
+					"x": "0.7373",
+					"y": "0.5762"
+				},
+				{
+					"id": "th",
+					"title": "Thailand",
+					"description": "Thailand",
+					"pin": "hidden",
+					"fill": "#D5DF66",
+					"x": "0.7643",
+					"y": "0.6269"
+				},
+				{
+					"id": "kh",
+					"title": "Cambodia",
+					"description": "Cambodia",
+					"pin": "hidden",
+					"fill": "#FFDBB6",
+					"x": "0.7743",
+					"y": "0.6401"
+				},
+				{
+					"id": "la",
+					"title": "Laos",
+					"description": "Laos",
+					"pin": "hidden",
+					"fill": "#B79980",
+					"x": "0.7689",
+					"y": "0.6111"
+				},
+				{
+					"id": "vn",
+					"title": "Vietnam",
+					"description": "Vietnam",
+					"pin": "hidden",
+					"fill": "#FFB394",
+					"x": "0.7768",
+					"y": "0.6026"
+				},
+				{
+					"id": "tw",
+					"title": "Taiwan",
+					"description": "Taiwan",
+					"pin": "hidden",
+					"fill": "#FFC958",
+					"x": "0.8168",
+					"y": "0.5961"
+				},
+				{
+					"id": "kr",
+					"title": "South Korea",
+					"description": "South Korea",
+					"pin": "hidden",
+					"fill": "#FFDBB6",
+					"x": "0.8343",
+					"y": "0.5349"
+				},
+				{
+					"id": "my",
+					"title": "Malaysia",
+					"description": "Malaysia",
+					"pin": "hidden",
+					"fill": "#4FB795",
+					"x": "0.7673",
+					"y": "0.6775"
+				},
+				{
+					"id": "sg",
+					"title": "Singapore",
+					"description": "Singapore",
+					"pin": "hidden",
+					"fill": "#44C39F",
+					"x": "0.8305",
+					"y": "0.7305"
+				},
+				{
+					"id": "id",
+					"title": "Indonesia",
+					"description": "Indonesia",
+					"pin": "hidden",
+					"fill": "#BAB85B",
+					"x": "0.7677",
+					"y": "0.6992"
+				},
+				{
+					"id": "hk",
+					"title": "Hong Kong",
+					"description": "Hong Kong",
+					"pin": "hidden",
+					"fill": "#BAB85B",
+					"x": "0.7880",
+					"y": "0.6147"
+				},
+				{
+					"id": "mn",
+					"title": "Mongolia",
+					"description": "Mongolia",
+					"pin": "hidden",
+					"fill": "#44C39F",
+					"x": "0.7596",
+					"y": "0.4733"
+				},
+				{
+					"id": "ae",
+					"title": "UAE",
+					"description": "UAE",
+					"pin": "hidden",
+					"fill": "#FFC958",
+					"x": "0.6404",
+					"y": "0.5930"
+				},
+				{
+					"id": "il",
+					"title": "Israel",
+					"description": "Israel",
+					"pin": "hidden",
+					"fill": "#B89880",
+					"x": "0.5917",
+					"y": "0.5571"
+				},
+				{
+					"id": "jo",
+					"title": "Jordan",
+					"description": "Jordan",
+					"pin": "hidden",
+					"fill": "#FFCC4D",
+					"x": "0.5963",
+					"y": "0.5597"
+				},
+				{
+					"id": "tr",
+					"title": "Turkey",
+					"description": "Turkey",
+					"pin": "hidden",
+					"fill": "#F9B392",
+					"x": "0.5916",
+					"y": "0.5167"
+				},
+				{
+					"id": "ph",
+					"title": "Philippines",
+					"description": "Philippines",
+					"pin": "hidden",
+					"fill": "#EB6E5E",
+					"x": "0.8171",
+					"y": "0.6233"
+				},
+				{
+					"id": "bd",
+					"title": "Bangladesh",
+					"description": "Bangladesh",
+					"pin": "hidden",
+					"fill": "#FFF39D",
+					"x": "0.7538",
+					"y": "0.6047"
+				},
+				{
+					"id": "az",
+					"title": "Azerbaijan",
+					"description": "Azerbaijan",
+					"pin": "hidden",
+					"fill": "#EB6E5E",
+					"x": "0.6263",
+					"y": "0.5115"
+				},
+				{
+					"id": "kp",
+					"title": "North Korea",
+					"description": "North Korea",
+					"pin": "hidden",
+					"fill": "#B79980",
+					"x": "0.7511",
+					"y": "0.6024"
+				},
+				{
+					"id": "fi",
+					"title": "Finland",
+					"description": "Finland",
+					"pin": "hidden",
+					"fill": "#38BA9C",
+					"x": "0.5730",
+					"y": "0.3390"
+				},
+				{
+					"id": "no",
+					"title": "Norway",
+					"description": "Norway",
+					"pin": "hidden",
+					"fill": "#8EBAD0",
+					"x": "0.5237",
+					"y": "0.3698"
+				},
+				{
+					"id": "se",
+					"title": "Sweden",
+					"description": "Sweden",
+					"pin": "hidden",
+					"fill": "#F9B492",
+					"x": "0.5471",
+					"y": "0.3390"
+				},
+				{
+					"id": "dk",
+					"title": "Denmark",
+					"description": "Denmark",
+					"pin": "hidden",
+					"fill": "#99D3BE",
+					"x": "0.5251",
+					"y": "0.4138"
+				},
+				{
+					"id": "is",
+					"title": "Iceland",
+					"description": "Iceland",
+					"pin": "hidden",
+					"fill": "#B89781",
+					"x": "0.5629",
+					"y": "0.1227"
+				},
+				{
+					"id": "ie",
+					"title": "Ireland",
+					"description": "Ireland",
+					"pin": "hidden",
+					"fill": "#88C664",
+					"x": "0.4816",
+					"y": "0.4330"
+				},
+				{
+					"id": "be",
+					"title": "Belgium",
+					"description": "Belgium",
+					"pin": "hidden",
+					"fill": "#DE8073",
+					"x": "0.5143",
+					"y": "0.4503"
+				},
+				{
+					"id": "nl",
+					"title": "Netherlands",
+					"description": "Netherlands",
+					"pin": "hidden",
+					"fill": "#B89781",
+					"x": "0.5180",
+					"y": "0.4368"
+				},
+				{
+					"id": "sz",
+					"title": "Switzerland",
+					"description": "Switzerland",
+					"pin": "hidden",
+					"fill": "#FFCC4E",
+					"x": "0.5229",
+					"y": "0.4736"
+				}
+				
+			]
+		}
+	]
+}

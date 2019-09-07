@@ -1,0 +1,21 @@
+.rememberme{padding-left:19px;}
+.unique{color:red;}
+#emailmsg,#usernamemsg{display:none;}
+.txtwidth{width: 50%;}
+.hrstyle{height:2px; border:none; color:#000; background-color:#f39c12; width:6%; text-align:left; margin: 5px auto 0 0;}
+.hrstylefull{height:2px; border:none; color:#000; background-color:#dd4b39; width:100%; text-align:left; margin: 5px auto 10px 0;}
+.dataTables_info{display:none;}
+.marrgt20{margin-right:20px;}
+.btnadd{bottom: 15px;position: relative;top: -40px;}
+.glbdisnone{display:none;}
+.glbdisblock{display:block;}
+#passdisnone,#forgotpassordsucdisnonde,#forgotpassorderrdisnonde{display:none;}
+#passdisblock{display:block;}
+#passdisnonealert{display:none;}
+#passdisblockalert{display:block;}
+label.error{
+  color:red;
+  font-weight: normal;
+}
+
+

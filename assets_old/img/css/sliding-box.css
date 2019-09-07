@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.responsive .slick-prev {
+    left: -15px;
+}
+.responsive .slick-next {
+    right: -15px;
+}
+
+/*.list--horizontal-filter {
+    margin: 0 5.5% 11.25px !important;
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+.list--horizontal-filter
+{
+	width:90%;
+	margin:0 auto !important;
+}
+
+.slick-prev::before, .slick-next::before
+{
+	padding:8px !important;
+}
